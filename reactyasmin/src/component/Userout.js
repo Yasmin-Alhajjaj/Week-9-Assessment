@@ -27,7 +27,7 @@ export default class Userout extends Component {
        
         <>
 
-hla
+
 
 <input type="text" value={this.state.name} onChange={this.add} />
         <button onClick={this.props.adduser.bind(this, this.state, this.reset)}>adduser</button>

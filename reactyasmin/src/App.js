@@ -25,11 +25,10 @@ adduser = (newTask, del) => {
   return (
     <div >
      
-          Learn React
 
 
         <Userout adduser={this.adduser}/>
-<ul>
+<ol>
 
 {this.state.tasks.map(task => 
 
@@ -39,7 +38,7 @@ adduser = (newTask, del) => {
 
 
 
-</ul>
+</ol>
         
     </div>
   );
