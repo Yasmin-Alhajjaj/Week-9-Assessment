@@ -21,12 +21,6 @@ adduser = (newTask, del) => {
   })
   del();
 }
-
-
-
-
-
-
   render (){
   return (
     <div >
@@ -35,6 +29,18 @@ adduser = (newTask, del) => {
 
 
         <Userout adduser={this.adduser}/>
+<ul>
+
+{this.state.tasks.map(task => 
+
+<li> {task.name}</li>  )
+
+}
+
+
+
+</ul>
+        
     </div>
   );
 }}

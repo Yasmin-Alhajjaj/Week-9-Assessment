@@ -11,10 +11,11 @@ export default class Userout extends Component {
         this.setState({
           name: e.target.value
         });
+        console.log(e.target.value)
       }
       reset = () => {
         this.setState({
-          title: ''
+            name: ''
         })
       }
 
